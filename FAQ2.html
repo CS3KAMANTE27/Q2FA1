@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 
+		 <title>FA1-Q2</title>
+	      
+		  <meta charset = "UTF-8">
+		  <meta name = "author" content = "Khea">
+		  <meta name = "keywords" content = "HTML, CSS, Javascript">
+		  <meta name = "revised" content = "11/17/22">
+		
+	</head>
+	
+	<body>
+		<p>	<a id="li1" href="#d1">	Change Div1	
+		</a>
+		
+		<br>
+		<p> <a id="li2" href="#d2"> Change Div2 </a> 
+		<br>
+		
+		<br>
+		<div id="d1"> Div1 </div>
+		<br>
+		
+		<div id="d2"> Div2 </div>
+	
+	</body>
+	
+	<style>
+		#li1:link{
+			color: black;
+			background-color: skyblue;
+			}
+		#li1:hover{
+			color:black;
+			background-color: yellow;
+			}
+		#li1: active{
+			color: white;
+			background-color: #E39FF6;
+			}
+		#li1:visted{
+			color:purple;
+			background-color: #281E5D;
+			}
+		#li1:focus{
+			color:white;
+			background-color: #50C878;
+			}
+			
+		#li2:link{
+			color:black;
+			background-color:pink;
+			}
+		#li2:hover{
+			color:yellow;
+			background-color: purple;
+			}
+		#li2:visted{
+			color:white;
+			background-color:black;
+			}
+
+		#li2:active{
+			color:white;
+			background-color:skyblue;
+			}
+		div{
+			border: 3px solid black;
+			height: 150px;
+			padding: 100px;
+			width: 10px;
+			border-color: green;
+			}
+		div:target#d1{
+			background-color: #98FF98;
+			color: red;
+			text-align: center;
+			}
+		div:target#d2{
+			border: 10px dotted;
+			background-color: lavender;
+			color: pink;
+			text-align: center;
+			border-color:green;
+			}
+		</style>
+
+</html>
